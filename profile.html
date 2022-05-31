@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width='device-width', initial-scale=1.0">
+    <title>Your Techtopia Profile</title>
+    <link rel="stylesheet"  href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="images/techtopia.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png" ></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png" ></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+
+        </div>
+<!----------------------settings menu ----------------------->
+        <div class="settings-menu">
+
+            <div id="dark-btn" class="dark-btn-on">
+                <span></span>
+            </div>
+
+
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Desirae Grier</p>
+                        <a href="#">Check your Profile</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Input any questions!</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/settings.png" width="15px" class="settings-icon" alt="">
+                    <a href="#"> Settings and Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/help.png" width="15px" class="settings-icon" alt="">
+                    <a href="#"> Help <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/nightmode.png" width="20px" class="settings-icon" alt="">
+                    <a href="#"> Settings and Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="settings-links">
+                    <img src="images/logout.png" width="15px" class="settings-icon" alt="">
+                    <a href="#">  Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+            
+        </div>
+    </nav>
+
+    <!-- -------------Profile Page---------------- -->
+
+    <div class="profile-container">
+        <img src="images/cover2.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile-pic.png" class="pd-image">
+                    <div>
+                        <h3>Samriti Bajwa</h3>
+                        <p>750 Connections</p>
+                        <p>340 Mutual Connections</p>
+                        <img src="images/member-4.png">
+                        <img src="images/status2.png">
+                        <img src="images/status3.png">
+                        <img src="images/status4.png">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"> <img src="images/addfriend.png"> Connect</button>
+                <button type="button"> <img src="images/message.png">   Message</button>
+                <br>
+                <a href=""><img src="images/3dots.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+            <div class="info-col">
+                <div class="profile-intro">
+                    <h3>Intro</h3>
+                    <p class="intro-text">Tech is for everyone!</p>
+                    <hr>
+                    <ul>
+                        <li> <img src="images/profile-job.png">Graduated from San Jose State with a degree in Business Administration in 2021. </li>
+                        <li> <img src="images/profile-job2.png"> I wanted to learn and change careers, joined a coding bootcamp in January, graduated in April. </li>
+                        <li> <img src="images/profile-job3.png">Didn't know what I was really passionate about. Until I discovered UI/UX Design.</li>
+                        <li> <img src="images/profile-job4.png">Want to learn UI/UX, will self-teach myself and work part-time. </li>
+                    </ul>
+                </div>
+
+<!-- photos grid code here -->
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Photos</h3>
+                        <a href="">All Pictures</a>
+                    </div>
+                    <div class="photo-box">
+                        <div><img src="images/profile-job.png" alt=""></div>
+                        <div><img src="images/profile-job2.png" alt=""></div>
+                        <div><img src="images/profile-job3.png" alt=""></div>
+                        <div><img src="images/profile-job4.png" alt=""></div>
+                        <div><img src="images/feed1.png" alt=""></div>
+                        <div><img src="images/feed2.png" alt=""></div>
+                    </div>
+                </div>
+<!-- connections list code here -->
+                <div class="profile-intro">
+                    <div class="title-box">
+                        <h3>Connections</h3>
+                        <a href="">All Connections</a>
+                    </div>
+                    <div class="friends-box">
+                        <div><img src="images/member-1.png" ><p>Desirae Grier</p></div>
+                        <div><img src="images/member-2.png" ><p>Samriti Bajwa</p></div>
+                        <div><img src="images/status1.png" > <p>Staci Ramsey</p></div>
+                        <div><img src="images/profile-job4.png"><p>Tori McNamara</p></div>
+                        <div><img src="images/feed1.png" ><p>Mina Assifi</p></div>
+                        <div><img src="images/feed2.png" > Pardeep Sangha</div>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+            <div class="post-col">
+                <div class="write-post-container">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png">
+                        <div>
+                            <p>Desirae Grier</p>
+                            <small>Public <img src="images/downarrow.png"></small>
+                        </div>
+                    </div>
+                    <div class="post-input-container">
+                        <textarea rows="3" placeholder="What career interests you? "></textarea>
+                        <div class="add-post-links">
+                            <a href="#"><img src="images/video2.png" alt="">Video</a>
+                            <a href="#"><img src="images/photo.png" alt="">Upload Picture</a>
+                            <a href="#"><img src="images/share.png" alt="">Share</a>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.png">
+                            <div>
+                                <p>Desirae Grier</p>
+                                <span>March 23, 2022, 2:04 pm</span>
+                            </div>
+                        </div>
+                        <a href=""><img src="images/3dots.png"/></a>
+                    </div>
+                    <p class="post-text"><span>Join</span> any of the info sessions! <a href="#"> #Techtopia</a> <a href="#"> #WomeninTech</a><a href="#"> #Coding</a></p>
+                    <img src="images/feed1.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png"> 156</div>
+                            <div><img src="images/comment.png"> 96</div>
+                            <div><img src="images/share1.png"> 66</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/profile-pic.png"><img src="images/downarrow.png"/>
+                        </div>
+                    </div>
+                </div>
+    <!-- second post here -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/status3.png">
+                            <div>
+                                <p>Staci Ramsey</p>
+                                <span>December 23, 2022, 4:01 pm</span>
+                            </div>
+                        </div>
+                        <a href=""><img src="images/3dots.png"/></a>
+                    </div>
+                    <p class="post-text"><span>Tech</span> is for everyone! <a href="#"> #Techtopia</a> <a href="#"> #WomeninTech</a><a href="#"> #Coding</a></p>
+                    <img src="images/feed2.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png"> 302</div>
+                            <div><img src="images/comment.png"> 186</div>
+                            <div><img src="images/share1.png"> 83</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/status3.png"><img src="images/downarrow.png"/>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- third post -->
+                <div class="post-container">
+                    <div class="post-row">
+                        <div class="user-profile">
+                            <img src="images/status3.png">
+                            <div>
+                                <p>Tori McNamara</p>
+                                <span>April 12, 2022, 6:55 pm</span>
+                            </div>
+                        </div>
+                        <a href=""><img src="images/3dots.png"/></a>
+                    </div>
+                    <p class="post-text"><span>Tech</span> is for everyone! <a href="#"> #Techtopia</a> <a href="#"> #WomeninTech</a><a href="#"> #Coding</a></p>
+                    <img src="images/feed3.png" class="post-img">
+    
+    
+                    <div class="post-row">
+                        <div class="activity-icons">
+                            <div><img src="images/like.png"> 302</div>
+                            <div><img src="images/comment.png"> 186</div>
+                            <div><img src="images/share1.png"> 83</div>
+                        </div>
+                        <div class="post-profile-icon">
+                            <img src="images/status3.png"><img src="images/downarrow.png"/>
+                        </div>
+                    </div>
+                </div>
+                <button type="button" class="load-more-btn">Learn More</button>
+    
+    
+    
+    
+            </div>
+
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+
+<!-- -----------------footer------------------- -->
+
+    <div class="footer">
+        <p>Copywrite 2022 - Published by Samriti Bajwa owner of Techtopia; All rights reserved</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
